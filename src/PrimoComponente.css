@@ -1,0 +1,25 @@
+* {
+    font-family: Roboto;
+    
+}
+
+.name {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.esperienza {
+    display: flex;
+    gap: 20px;
+}
+
+.competenza {
+    display: flex;
+    gap: 20px;
+}
+
+.istruzione {
+    display: flex;
+    gap: 20px;
+}
