@@ -12,14 +12,17 @@
 .esperienza {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .competenza {
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .istruzione {
     display: flex;
     gap: 20px;
+    align-items: center;
 }

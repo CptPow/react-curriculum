@@ -6,21 +6,25 @@ import {
   faUserTie,
   faGraduationCap,
 } from "@fortawesome/free-solid-svg-icons";
+import './PrimoComponente.css';
 
 const PrimoComponente = () => {
   return (
     <React.Fragment>
+      
       <div className="name">
         <FontAwesomeIcon
           icon={faAddressCard}
           style={{ color: "#4a90e2", fontSize: "100px" }}
         />
+        
         <h1> Mario Rossi</h1>
       </div>
       <div className="esperienza">
-        <h1>
-          <FontAwesomeIcon icon={faBriefcase} style={{ color: "#f44336" }} />
-        </h1>{" "}
+        
+          <FontAwesomeIcon icon={faBriefcase} style={{ color: "#f44336",
+        fontSize: "50px" }} />
+        
         <h1>Esperienza</h1>
       </div>
       <h3>Sviluppatore Frontend</h3>
@@ -31,9 +35,10 @@ const PrimoComponente = () => {
       <p>2017 - 2019</p>
 
       <div className="competenza">
-        <h1>
-          <FontAwesomeIcon icon={faUserTie} style={{ color: "#4caf50" }} />
-        </h1>
+        
+          <FontAwesomeIcon icon={faUserTie} style={{ color: "#4caf50",
+        fontSize: "50px" }} />
+        
         <h1>Competenze</h1>
       </div>
       <p>HTML</p>
@@ -41,12 +46,13 @@ const PrimoComponente = () => {
       <p>JavaScript</p>
       <p>React</p>
       <div className="istruzione">
-        <h1>
+        
           <FontAwesomeIcon
             icon={faGraduationCap}
-            style={{ color: "#ff9700" }}
+            style={{ color: "#ff9700",
+            fontSize: "50px" }}
           />
-        </h1>
+        
         <h1>Istruzione</h1>
       </div>
       <h2>Laurea in Informatica</h2>
